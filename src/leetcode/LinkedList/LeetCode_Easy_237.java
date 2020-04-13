@@ -1,4 +1,4 @@
-package LinkedList;
+package leetcode.LinkedList;
 
 //删除列表节点
 public class LeetCode_Easy_237 {

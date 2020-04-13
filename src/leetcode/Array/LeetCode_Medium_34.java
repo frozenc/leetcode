@@ -1,4 +1,4 @@
-package Array;
+package leetcode.Array;
 
 public class LeetCode_Medium_34 {
     public int[] searchRange(int[] nums, int target) {

@@ -1,4 +1,4 @@
-package Math;
+package leetcode.Math;
 
 public class LeetCode_Medium_29 {
     public int divide(int dividend, int divisor) {

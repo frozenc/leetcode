@@ -1,4 +1,4 @@
-package Array;
+package leetcode.Array;
 
 public class LeetCode_Medium_31 {
     public void nextPermutation(int[] nums) {

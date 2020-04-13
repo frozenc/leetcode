@@ -1,10 +1,10 @@
-package Array;
+package leetcode.Array;
 
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class LeetCode_Medium_40 {
+public class LeetCode_Medium_39 {
     private List<List<Integer>> lists = new LinkedList<>();
 
 
@@ -32,17 +32,15 @@ public class LeetCode_Medium_40 {
         for (int i = begin; i < nums.length; i++) {
             //剪枝，去除后面更大不符合要求的数
             if (target - nums[i] < 0) break;
-            //剪枝，删除新路径时重复数
-            if (i > begin && nums[i] == nums[i-1]) continue;
             res.add(nums[i]);
-            dfs(nums, target-nums[i], res, i+1);
+            dfs(nums, target-nums[i], res, i);
             res.removeLast();
         }
     }
 
     public static void main(String[] args) {
-        LeetCode_Medium_40 test = new LeetCode_Medium_40();
-        test.combinationSum(new int[]{10,1,2,7,6,1,5}, 8);
+        LeetCode_Medium_39 test = new LeetCode_Medium_39();
+        test.combinationSum(new int[]{2,3,6,7}, 7);
         System.out.println(test.lists);
     }
 }

@@ -1,4 +1,4 @@
-package LinkedList;
+package leetcode.LinkedList;
 
 //链表，两数相加
 public class LeetCode_Medium_2 {
@@ -38,7 +38,7 @@ class ListNode {
 
     @Override
     public String toString() {
-        return "ListNode{" +
+        return "leetcode.Util.ListNode{" +
                 "val=" + val +
                 ", next=" + next +
                 '}';

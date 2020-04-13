@@ -1,4 +1,4 @@
-package LinkedList;
+package leetcode.LinkedList;
 
 //合并两个有序链表
 public class LeetCode_Easy_21 {

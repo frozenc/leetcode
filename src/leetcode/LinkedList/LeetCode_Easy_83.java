@@ -1,4 +1,4 @@
-package LinkedList;
+package leetcode.LinkedList;
 
 //删除链表重复元素
 public class LeetCode_Easy_83 {

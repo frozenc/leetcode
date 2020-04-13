@@ -1,4 +1,4 @@
-package Array;
+package leetcode.Array;
 
 //最大子序和
 public class LeetCode_Easy_53 {
