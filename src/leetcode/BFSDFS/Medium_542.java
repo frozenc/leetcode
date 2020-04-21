@@ -1,4 +1,4 @@
-package leetcode.BFS;
+package leetcode.BFSDFS;
 
 import java.util.LinkedList;
 import java.util.Queue;

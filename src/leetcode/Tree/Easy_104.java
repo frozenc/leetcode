@@ -18,7 +18,7 @@ public class Easy_104 {
         return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
     }
 
-    //BFS
+    //BFSDFS
     public int maxDepth2(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
         if(root != null) queue.add(root);

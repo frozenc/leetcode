@@ -15,7 +15,7 @@ public class Easy_226 {
         root.right = invertTree(tmp);
         return root;
     }
-    //BFS
+    //BFSDFS
     public TreeNode invertTree2(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
         if (root != null) queue.add(root);
