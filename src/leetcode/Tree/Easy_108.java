@@ -1,6 +1,6 @@
 package leetcode.Tree;
 
-import leetcode.Util.TreeNode;
+import Util.TreeNode;
 
 //有序数组转高度平衡二叉搜索树
 public class Easy_108 {

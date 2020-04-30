@@ -1,6 +1,6 @@
 package leetcode.Tree;
 
-import leetcode.Util.TreeNode;
+import Util.TreeNode;
 
 //路径总和
 public class Easy_437 {

@@ -1,6 +1,6 @@
 package leetcode.Tree;
 
-import leetcode.Util.TreeNode;
+import Util.TreeNode;
 
 //根到叶子节点的数字之和
 public class Medium_129 {

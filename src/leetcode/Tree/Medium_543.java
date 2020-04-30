@@ -1,6 +1,6 @@
 package leetcode.Tree;
 
-import leetcode.Util.TreeNode;
+import Util.TreeNode;
 
 //二叉树的直径
 public class Medium_543 {

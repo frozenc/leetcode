@@ -1,4 +1,4 @@
-package leetcode.Util;
+package Util;
 
 public class QuickSort {
     public int partion(int[] nums, int left, int right) {

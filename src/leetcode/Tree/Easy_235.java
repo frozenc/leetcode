@@ -1,6 +1,6 @@
 package leetcode.Tree;
 
-import leetcode.Util.TreeNode;
+import Util.TreeNode;
 
 //二叉搜索树的最近公共祖先，利用二叉搜索树的性质
 public class Easy_235 {

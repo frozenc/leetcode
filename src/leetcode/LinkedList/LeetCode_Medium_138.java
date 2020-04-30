@@ -2,7 +2,7 @@ package leetcode.LinkedList;
 
 import java.util.HashMap;
 
-import leetcode.Util.Node;
+import Util.Node;
 
 //深拷贝带有随机指针的链表
 public class LeetCode_Medium_138 {

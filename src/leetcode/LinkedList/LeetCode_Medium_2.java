@@ -38,7 +38,7 @@ class ListNode {
 
     @Override
     public String toString() {
-        return "leetcode.Util.ListNode{" +
+        return "Util.ListNode{" +
                 "val=" + val +
                 ", next=" + next +
                 '}';

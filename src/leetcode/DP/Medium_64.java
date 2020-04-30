@@ -2,7 +2,7 @@ package leetcode.DP;
 
 //最小路径和
 public class Medium_64 {
-    //二维dp数组，从终点倒着往前面推
+    //二维dp数组，从
     public int minPathSum(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;

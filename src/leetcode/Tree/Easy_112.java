@@ -1,7 +1,7 @@
 package leetcode.Tree;
 
 import javafx.util.Pair;
-import leetcode.Util.TreeNode;
+import Util.TreeNode;
 
 import java.util.Stack;
 
