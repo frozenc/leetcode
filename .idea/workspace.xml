@@ -3,81 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a88e5b82-42a3-4490-a542-79633b9984bc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/LinkedList/LeetCode_Medium_138.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/LinkedList/LeetCode_Medium_138.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/LinkedList/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/LinkedList/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/SearchProblem/Medium_220.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/SearchProblem/Medium_220.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_100.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_100.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_101.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_101.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_104.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_104.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_108.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_108.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_111.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_111.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_112.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_112.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_226.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_226.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_235.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_235.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_257.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_257.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_404.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_404.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_437.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_437.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Hard_145.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Hard_145.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_102.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_102.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_1038.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_1038.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_105.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_105.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_110.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_110.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_113.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_113.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_129.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_129.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_144.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_144.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_199.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_199.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_222.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_222.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_230.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_230.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_236.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_236.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_450.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_450.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_543.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_543.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_662$MyNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_662$MyNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_662.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_662.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_94.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_94.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_958.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_958.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_98.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Medium_98.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Util/BFPRT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Util/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Util/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Util/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Util/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/DP/Medium_64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/DP/Medium_64.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/LinkedList/LeetCode_Medium_138.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/LinkedList/LeetCode_Medium_138.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/LinkedList/LeetCode_Medium_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/LinkedList/LeetCode_Medium_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Easy_100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Easy_100.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Easy_101.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Easy_101.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Easy_104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Easy_104.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Easy_108.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Easy_108.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Easy_111.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Easy_111.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Easy_112.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Easy_112.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Easy_226.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Easy_226.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Easy_235.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Easy_235.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Easy_257.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Easy_257.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Easy_404.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Easy_404.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Easy_437.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Easy_437.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Hard_145.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Hard_145.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Medium_102.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Medium_102.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Medium_1038.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Medium_1038.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Medium_105.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Medium_105.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Medium_110.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Medium_110.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Medium_113.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Medium_113.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Medium_129.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Medium_129.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Medium_144.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Medium_144.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Medium_199.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Medium_199.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Medium_222.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Medium_222.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Medium_230.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Medium_230.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Medium_236.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Medium_236.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Medium_450.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Medium_450.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Medium_543.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Medium_543.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Medium_662.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Medium_662.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Medium_94.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Medium_94.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Medium_958.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Medium_958.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Medium_98.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Medium_98.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Util/BFPRT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/BFPRT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Util/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Util/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Util/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Util/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_52.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,12 +16,13 @@
     <session id="546126944">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.108" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.40" value="2" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.42" value="4" />
@@ -105,28 +32,28 @@
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="182" />
+          <entry key="java" value="191" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="182" />
+          <entry key="JAVA" value="191" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="40" />
-          <entry key="java" value="25353" />
+          <entry key="java" value="25790" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="25353" />
+          <entry key="JAVA" value="25790" />
           <entry key="PLAIN_TEXT" value="40" />
         </counts>
       </usages-collector>
@@ -135,97 +62,103 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_6.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_18.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_22.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_23.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_25.java">
+        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_52.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_26.java">
+        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="125">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_35.java">
+        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+            <state relative-caret-position="425">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_11.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_21.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_39.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_40.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_41.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_42.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_52.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/Math/Hard_233.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="38" selection-start-line="38" selection-start-column="2" selection-end-line="39" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Util/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Util/TreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="275">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -250,15 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/SearchProblem/Easy_202.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/SearchProblem/Easy_290.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/SearchProblem/Easy_205.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/SearchProblem/Easy_1.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/SearchProblem/Easy_447.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/SearchProblem/Easy_219.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/SearchProblem/Easy_217.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/Array/ReversePairs.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/SearchProblem/Medium_451.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Array/Medium_16.java" />
         <option value="$PROJECT_DIR$/src/leetcode/SearchProblem/Medium_454.java" />
         <option value="$PROJECT_DIR$/src/leetcode/SearchProblem/Medium_49.java" />
@@ -301,6 +225,15 @@
         <option value="$PROJECT_DIR$/src/JianZhiOffer/Offer_26.java" />
         <option value="$PROJECT_DIR$/src/JianZhiOffer/Offer_35.java" />
         <option value="$PROJECT_DIR$/src/JianZhiOffer/Offer_52.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/Offer_3.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/Offer_4.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/Offer_11.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/Offer_21.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/Offer_39.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/Offer_40.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/Offer_41.java" />
+        <option value="$PROJECT_DIR$/src/JianZhiOffer/Offer_42.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/Math/Hard_233.java" />
       </list>
     </option>
   </component>
@@ -348,22 +281,29 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="JianZhiOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Math" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/github_project/leetcode/src/leetcode/Tree/Easy_404.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588223110785" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588348323505" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -382,20 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Offer_52">
-    <configuration name="Medium_215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Array.Medium_215" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Offer_42">
     <configuration name="Medium_220" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.SearchProblem.Medium_220" />
       <module name="leetcode" />
@@ -435,6 +362,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Offer_42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JianZhiOffer.Offer_42" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JianZhiOffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Offer_52" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JianZhiOffer.Offer_52" />
       <module name="leetcode" />
@@ -449,19 +389,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Medium_215" />
       <item itemvalue="Application.Medium_91" />
       <item itemvalue="Application.Medium_55" />
       <item itemvalue="Application.Medium_220" />
       <item itemvalue="Application.Offer_52" />
+      <item itemvalue="Application.Offer_42" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Offer_42" />
         <item itemvalue="Application.Offer_52" />
         <item itemvalue="Application.Medium_220" />
         <item itemvalue="Application.Medium_55" />
         <item itemvalue="Application.Medium_91" />
-        <item itemvalue="Application.Medium_215" />
       </list>
     </recent_temporary>
   </component>
@@ -493,18 +433,19 @@
       <workItem from="1587779160443" duration="8738000" />
       <workItem from="1587835066196" duration="15954000" />
       <workItem from="1588038654103" duration="28737000" />
-      <workItem from="1588222460374" duration="536000" />
+      <workItem from="1588222460374" duration="3051000" />
+      <workItem from="1588298837985" duration="7640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219193000" />
+    <option name="totallyTimeSpent" value="229348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31769437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32171583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -513,8 +454,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39943343" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -579,79 +520,10 @@
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JianZhiOffer/Offer_52.java</url>
-          <line>8</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Array/Medium_16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/SearchProblem/Medium_454.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/SearchProblem/Medium_49.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/SearchProblem/Medium_220.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/Array/Medium_46.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/SearchProblem/Easy_704.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/LinkedList/Hard_23.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="50" selection-start-line="50" selection-end-line="75" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/BackTracking/Easy_401.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/BackTracking/Easy_784.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/BackTracking/Medium_131.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -860,7 +732,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="425">
           <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -877,7 +749,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_22.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="250">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -929,8 +801,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_52.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="38" selection-start-line="38" selection-start-column="2" selection-end-line="39" selection-end-column="28" />
+        <state relative-caret-position="175">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_21.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_39.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_40.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_41.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JianZhiOffer/Offer_42.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Math/Hard_233.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
