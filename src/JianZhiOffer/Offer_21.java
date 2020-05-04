@@ -1,33 +1,47 @@
 package JianZhiOffer;
 
-//调整数字的顺序
+import java.util.Stack;
+
+//栈的压入，弹出序列
 public class Offer_21 {
-    //新建奇偶数组
-    public void reOrderArray(int [] array) {
-        int[] odd = new int[array.length];
-        int[] even = new int[array.length];
-        int o = 0, e = 0;
-        for (int num:array) {
-            if (num % 2 != 0) odd[o++] = num;
-            else even[e++] = num;
-        }
-        for (int i=0; i<o; i++) {
-            array[i] = odd[i];
-        }
-        for (int i=0; i<e; i++) {
-            array[i+o] = even[i];
-        }
-    }
-    //冒泡排序法思路
-    public void reOrderArray2(int [] array) {
-        for (int i=0; i<array.length; i++) {
-            for (int j = array.length-1; j>i; j--) {
-                if (array[j] %2 == 1 && array[j-1] % 2 == 0) {
-                    int temp = array[j];
-                    array[j] = array[j-1];
-                    array[j-1] = temp;
-                }
+    public boolean IsPopOrder(int [] pushA,int [] popA) {
+        Stack<Integer> stack  = new Stack<>();
+        int i = 0, j = 0;
+        while (i < pushA.length && j < popA.length) {
+            stack.push(pushA[i++]);
+            if (stack.peek() == popA[j]) {
+                stack.pop();
+                j++;
             }
         }
+        while (!stack.isEmpty()) {
+            if (stack.peek() == popA[j]) {
+                stack.pop();
+                j++;
+            } else {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    //更简洁的写法
+    public boolean IsPopOrder2(int [] pushA,int [] popA) {
+        Stack<Integer> stack  = new Stack<>();
+        int j=0;
+        for (int i=0; i<pushA.length; i++) {
+            stack.push(pushA[i]);
+            while (!stack.isEmpty() && j<popA.length && stack.peek()==popA[j]) {
+                stack.pop();
+                j++;
+            }
+        }
+        return stack.isEmpty();
+    }
+
+    public static void main(String[] args) {
+        int[] num1 = new int[]{1,2,3,4,5};
+        int[] num2 = new int[]{3,5,4,1,2};
+        new Offer_21().IsPopOrder(num1, num2);
     }
 }

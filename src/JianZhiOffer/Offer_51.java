@@ -1,49 +1,21 @@
 package JianZhiOffer;
 
-//数组中的逆序对
+//构建乘积数组
 public class Offer_51 {
-    //暴力超时，使用归并排序
-    public int InversePairs(int [] array) {
-        if (array.length<2) return 0;
-        return InversePairs(array, 0, array.length-1, new int[array.length])%1000000007;
-    }
-
-    public int InversePairs(int[] array, int left, int right, int[] temp) {
-        if (left == right) return 0;
-
-        int mid = left + (right - left)/2;
-        int leftPairs = InversePairs(array, left, mid, temp);
-        int rightPairs = InversePairs(array, mid+1, right, temp);
-
-        if (array[mid] <= array[mid+1]) {
-            return leftPairs + rightPairs;
+    public int[] multiply(int[] A) {
+        int[] res = new int[A.length];
+        int k=1;
+        //计算该数字左边的乘积
+        for (int i=0; i<A.length; i++) {
+            res[i] = k;
+            k *= A[i];
         }
-
-        int mergePairs = MergeAndCount(array, left, right, mid, temp);
-        return (leftPairs + rightPairs + mergePairs)%1000000007;
-    }
-
-    public int MergeAndCount(int[] array, int left, int right, int mid, int[] temp) {
-        for (int i=left; i<=right; i++) {
-            temp[i] = array[i];
+        k = 1;
+        //计算该数字右边的乘积
+        for (int i=A.length-1; i>=0; i--) {
+            res[i] *= k;
+            k *= A[i];
         }
-        int count = 0;
-        int i = left, j = mid+1;
-        for (int k=left; k<=right; k++) {
-            if (i == mid+1) {
-                array[k] = temp[j++];
-            } else if (j == right+1) {
-                array[k] = temp[i++];
-            } else if (temp[i] <= temp[j]) {
-                array[k] = temp[i++];
-            } else {
-                array[k] = temp[j++];
-                count += (mid-i+1);
-                if (count >= 1000000007) {
-                    count %= 1000000007;
-                }
-            }
-        }
-        return count%1000000007;
+        return res;
     }
 }

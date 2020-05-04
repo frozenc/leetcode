@@ -1,68 +1,49 @@
 package JianZhiOffer;
 
-import java.util.HashMap;
-
-//复杂链表的复制
+//数组中的逆序对
 public class Offer_35 {
-    //hashmap,空间复杂度O(n);
-    public RandomListNode Clone(RandomListNode pHead)
-    {
-        HashMap<RandomListNode, RandomListNode> map = new HashMap<>();
-        RandomListNode dummy = new RandomListNode(-1);
-        RandomListNode cur = dummy;
-        RandomListNode head = pHead;
-        while (pHead != null) {
-            RandomListNode node = new RandomListNode(pHead.label);
-            map.put(pHead, node);
-            pHead = pHead.next;
-            cur.next = node;
-            cur = cur.next;
-        }
-        cur = dummy.next;
-        pHead = head;
-        while (cur != null) {
-            if (pHead.random != null) cur.random = map.get(pHead.random);
-            pHead = pHead.next;
-            cur = cur.next;
-        }
-        return dummy.next;
+    //暴力超时，使用归并排序
+    public int InversePairs(int [] array) {
+        if (array.length<2) return 0;
+        return InversePairs(array, 0, array.length-1, new int[array.length])%1000000007;
     }
 
-    //在老链表的每个节点后面加入深拷贝的新节点，第二次遍历添加random指针，第三次遍历断开老旧节点的链接
-    public RandomListNode Clone2(RandomListNode pHead)
-    {
-        if (pHead == null) return null;
-        RandomListNode oldPtr = pHead;
-        while (oldPtr != null) {
-            RandomListNode node = new RandomListNode(oldPtr.label);
-            node.next = oldPtr.next;
-            oldPtr.next = node;
-            oldPtr = node.next;
+    public int InversePairs(int[] array, int left, int right, int[] temp) {
+        if (left == right) return 0;
+
+        int mid = left + (right - left)/2;
+        int leftPairs = InversePairs(array, left, mid, temp);
+        int rightPairs = InversePairs(array, mid+1, right, temp);
+
+        if (array[mid] <= array[mid+1]) {
+            return leftPairs + rightPairs;
         }
-        oldPtr = pHead;
-        while (oldPtr != null) {
-            oldPtr.next.random = oldPtr.random == null ? null : oldPtr.random.next;
-            oldPtr = oldPtr.next.next;
-        }
-        oldPtr = pHead;
-        RandomListNode newPtr = pHead.next;
-        RandomListNode head = pHead.next;
-        while (oldPtr != null) {
-            oldPtr.next = oldPtr.next.next;
-            newPtr.next = newPtr.next == null ? null : newPtr.next.next;
-            oldPtr = oldPtr.next;
-            newPtr = newPtr.next;
-        }
-        return head;
+
+        int mergePairs = MergeAndCount(array, left, right, mid, temp);
+        return (leftPairs + rightPairs + mergePairs)%1000000007;
     }
 
-    public class RandomListNode {
-        int label;
-        RandomListNode next = null;
-        RandomListNode random = null;
-
-        RandomListNode(int label) {
-            this.label = label;
+    public int MergeAndCount(int[] array, int left, int right, int mid, int[] temp) {
+        for (int i=left; i<=right; i++) {
+            temp[i] = array[i];
         }
+        int count = 0;
+        int i = left, j = mid+1;
+        for (int k=left; k<=right; k++) {
+            if (i == mid+1) {
+                array[k] = temp[j++];
+            } else if (j == right+1) {
+                array[k] = temp[i++];
+            } else if (temp[i] <= temp[j]) {
+                array[k] = temp[i++];
+            } else {
+                array[k] = temp[j++];
+                count += (mid-i+1);
+                if (count >= 1000000007) {
+                    count %= 1000000007;
+                }
+            }
+        }
+        return count%1000000007;
     }
 }

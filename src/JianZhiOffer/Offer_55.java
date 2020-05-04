@@ -3,7 +3,7 @@ package JianZhiOffer;
 import Util.ListNode;
 
 //寻找链表环的入口
-public class Offer_23 {
+public class Offer_55 {
     public ListNode EntryNodeOfLoop(ListNode pHead)
     {
         ListNode fast = pHead;

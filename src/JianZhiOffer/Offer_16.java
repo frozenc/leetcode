@@ -3,7 +3,7 @@ package JianZhiOffer;
 import Util.ListNode;
 
 //合并两个有序链表
-public class Offer_26 {
+public class Offer_16 {
     public ListNode Merge(ListNode list1,ListNode list2) {
         ListNode dummy = new ListNode(-1);
         ListNode cur = dummy;

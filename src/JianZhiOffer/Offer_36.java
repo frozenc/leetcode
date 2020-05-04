@@ -3,7 +3,7 @@ package JianZhiOffer;
 import Util.ListNode;
 
 //两个链表的第一个公共节点
-public class Offer_52 {
+public class Offer_36 {
     public ListNode FindFirstCommonNode(ListNode pHead1, ListNode pHead2) {
         ListNode p1 = pHead1;
         ListNode p2 = pHead2;
@@ -39,6 +39,6 @@ public class Offer_52 {
         }
         c1.next = h3.next;
         c2.next = h3.next;
-        System.out.println(new Offer_52().FindFirstCommonNode(h1.next, h2.next));
+        System.out.println(new Offer_36().FindFirstCommonNode(h1.next, h2.next));
     }
 }

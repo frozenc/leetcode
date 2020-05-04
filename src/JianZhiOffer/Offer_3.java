@@ -1,21 +1,35 @@
 package JianZhiOffer;
 
-import java.util.HashSet;
-import java.util.Set;
+import Util.ListNode;
 
-//查找重复数1.排序2.哈希set3.二分查找
+import java.util.ArrayList;
+import java.util.Stack;
+
+//从尾到头打印链表
 public class Offer_3 {
-    //hashset实现
-    public boolean duplicate(int numbers[],int length,int [] duplication) {
-        if (length == 0) return false;
-        Set<Integer> set = new HashSet<>();
-        for (int num:numbers) {
-            if (set.contains(num)) {
-                duplication[0] = num;
-                return true;
-            }
-            set.add(num);
+    //用栈实现
+    public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
+        ArrayList<Integer> list = new ArrayList<>();
+        Stack<ListNode> stack = new Stack<>();
+        while (listNode != null) {
+            stack.push(listNode);
+            listNode = listNode.next;
         }
-        return false;
+        while (!stack.isEmpty()) {
+            ListNode temp = stack.pop();
+            list.add(temp.val);
+        }
+        return list;
+    }
+    //通过递归实现
+    ArrayList<Integer> res = new ArrayList<>();
+    public ArrayList<Integer> printListFromTailToHead2(ListNode listNode) {
+        if (listNode != null) {
+            if (listNode.next != null) {
+                printListFromTailToHead(listNode.next);
+            }
+            res.add(listNode.val);
+        }
+        return res;
     }
 }

@@ -1,7 +1,7 @@
 package JianZhiOffer;
 
 //数字在排序数组中出现的次数
-public class Offer_53 {
+public class Offer_37 {
     public int GetNumberOfK(int [] array , int k) {
         int left = 0, right = array.length-1;
         while (left <= right) {

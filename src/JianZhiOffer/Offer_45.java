@@ -1,32 +1,42 @@
 package JianZhiOffer;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
+import java.util.Arrays;
 
-//数字排成最小的数
+//扑克牌的顺子
 public class Offer_45 {
-    public String PrintMinNumber(int [] numbers) {
-        ArrayList<String> list = new ArrayList<>();
-        for (int num:numbers) {
-            list.add(String.valueOf(num));
-        }
-        Collections.sort(list, new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                StringBuilder sb1 = new StringBuilder();
-                StringBuilder sb2 = new StringBuilder();
-                sb1.append(o1);
-                sb1.append(o2);
-                sb2.append(o2);
-                sb2.append(o1);
-                return sb1.toString().compareTo(sb2.toString());
+    //对数组排序，判断数组间隔数是否小于等于0的个数
+    public boolean isContinuous(int [] numbers) {
+        if (numbers.length < 5) return false;
+        Arrays.sort(numbers);
+        int count = 0;
+        int interval = 0;
+        for (int i=0; i<numbers.length; i++) {
+            if (numbers[i] == 0) {
+                count ++;
+                continue;
             }
-        });
-        StringBuilder sb = new StringBuilder();
-        for (String num:list) {
-            sb.append(num);
+            if (i>0 && numbers[i-1] != 0) {
+                if (numbers[i] == numbers[i-1]) return false;
+                interval += numbers[i] - numbers[i-1] - 1;
+            }
         }
-        return sb.toString();
+        if (count >= interval) return true;
+        return false;
+    }
+
+    //跳过0，查看数组中是否含有重复数字，查看数组最大值最小值是否大于5
+    public boolean isContinuous2(int [] numbers) {
+        if (numbers.length < 5) return false;
+        int[] nums = new int[14];
+        int max=0, min = 14;
+        for (int num:numbers) {
+            nums[num] ++;
+            if (num == 0) continue;
+            if (nums[num] > 1) return false;
+            max = Math.max(num, max);
+            min = Math.min(num, min);
+        }
+        if (max - min < 5) return true;
+        return false;
     }
 }

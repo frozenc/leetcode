@@ -1,7 +1,7 @@
 package JianZhiOffer;
 
 //查找数组中出现次数超过一半的数字
-public class Offer_39 {
+public class Offer_28 {
     public int MoreThanHalfNum_Solution(int [] array) {
         int n = array.length;
         if (n == 0) return 0;

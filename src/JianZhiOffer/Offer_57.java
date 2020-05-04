@@ -1,31 +1,27 @@
 package JianZhiOffer;
 
-import java.util.ArrayList;
+import Util.TreeLinkNode;
 
-//和为S的两个数字
+//二叉树的下一个节点
 public class Offer_57 {
-    public ArrayList<Integer> FindNumbersWithSum(int [] array,int sum) {
-        int min = Integer.MAX_VALUE;
-        int left = 0, right = array.length-1;
-        ArrayList<Integer> list = new ArrayList<>();
-        while (left < right) {
-            int mySum = array[left] + array[right];
-            //乘积最小的一定是第一组，可直接返回
-            if (mySum == sum) {
-                if (min > array[left] * array[right]) {
-                    min = array[left] * array[right];
-                    list.clear();
-                    list.add(array[left]);
-                    list.add(array[right]);
-                }
-                left ++;
-                right --;
-            } else if (mySum < sum) {
-                left ++;
-            } else {
-                right --;
+    public TreeLinkNode GetNext(TreeLinkNode pNode)
+    {
+        if (pNode == null) return null;
+        //该节点的右孩子不为空，查找右孩子的最后一个左孩子
+        if (pNode.right != null) {
+            pNode = pNode.right;
+            while (pNode.left != null) {
+                pNode = pNode.left;
             }
+            return pNode;
         }
-        return list;
+        //右孩子为空，向上寻找父节点，如果该节点是父节点的左孩子，直接返回，否则继续向上寻找
+        while (pNode.next != null) {
+            if (pNode == pNode.next.left) {
+                return pNode.next;
+            }
+            pNode = pNode.next;
+        }
+        return null;
     }
 }

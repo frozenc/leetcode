@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.ArrayList;
 
 //滑动窗口的最大值
-public class Offer_59 {
+public class Offer_64 {
     //暴力法
     public ArrayList<Integer> maxInWindows(int [] num, int size)
     {

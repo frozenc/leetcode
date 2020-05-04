@@ -1,35 +1,19 @@
 package JianZhiOffer;
 
-import Util.ListNode;
-
-import java.util.ArrayList;
-import java.util.Stack;
-
-//从尾到头打印链表
+//旋转数组的最小数字
 public class Offer_6 {
-    //用栈实现
-    public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
-        ArrayList<Integer> list = new ArrayList<>();
-        Stack<ListNode> stack = new Stack<>();
-        while (listNode != null) {
-            stack.push(listNode);
-            listNode = listNode.next;
-        }
-        while (!stack.isEmpty()) {
-            ListNode temp = stack.pop();
-            list.add(temp.val);
-        }
-        return list;
-    }
-    //通过递归实现
-    ArrayList<Integer> res = new ArrayList<>();
-    public ArrayList<Integer> printListFromTailToHead2(ListNode listNode) {
-        if (listNode != null) {
-            if (listNode.next != null) {
-                printListFromTailToHead(listNode.next);
+    //二分查找
+    public int minNumberInRotateArray(int [] array) {
+        if (array.length == 0) return 0;
+        int left = 0, right = array.length-1;
+        while (left < right) {
+            int mid = left + (right-left)/2;
+            if (array[mid] < array[right]) {
+                right = mid;
+            } else {
+                left = mid + 1;
             }
-            res.add(listNode.val);
         }
-        return res;
+        return array[left];
     }
 }
