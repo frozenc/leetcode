@@ -33,4 +33,29 @@ public class Hard_145 {
         }
         return res;
     }
+
+    //不使用队列
+    public List<Integer> postorderTraversal3(TreeNode root) {
+        List<Integer> res = new LinkedList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        if (root == null) return res;
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            TreeNode node = stack.peek();
+            if (node == null) {
+                stack.pop();
+                res.add(stack.pop().val);
+                continue;
+            }
+            stack.push(null);
+
+            if (node.right != null) {
+                stack.push(node.right);
+            }
+            if (node.left != null) {
+                stack.push(node.left);
+            }
+        }
+        return res;
+    }
 }
