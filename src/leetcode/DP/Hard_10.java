@@ -8,6 +8,7 @@ public class Hard_10 {
         }
         int len1 = s.length(), len2 = p.length();
         boolean[][] dp = new boolean[len1+1][len2+1];
+        dp[0][0] = true;
         for(int j=0; j<len2; j++) {
             if (p.charAt(j) == '*') {
                 //在模式a*b*c*中，只要含有*，就可以视为0，直接使用前面的匹配结果
@@ -26,12 +27,12 @@ public class Hard_10 {
                     if (p.charAt(j-1) != '.' && p.charAt(j-1) != s.charAt(i)) {
                         dp[i+1][j+1] = dp[i+1][j-1];
                     } else {
-                        System.out.println("i=:" + i+1 + "-j=:" + j+1);
                         //前一个字符成功匹配, 如abc 和 abc*(ab.*)
                         // abc 和 abc* 中忽略c* *取0的时候
                         // abc 和 abc* 中忽略* *取1的时候
                         // abc 和 abc* 中只看字符串中ab  *取多的时候
-                        if (dp[i+1][j-1] || dp[i+1][j] || dp[i][j+1]) {
+                        if (dp[i][j+1] || dp[i+1][j] || dp[i+1][j-1]) {
+                            // if (dp[i+1][j-1] || dp[i+1][j] || dp[i][j+1]) {
                             dp[i+1][j+1] = true;
                         }
                     }
