@@ -43,10 +43,12 @@ public class Hard_145 {
         while (!stack.isEmpty()) {
             TreeNode node = stack.peek();
             if (node == null) {
+                //将null弹出
                 stack.pop();
                 res.add(stack.pop().val);
                 continue;
             }
+            //判断是否叶子节点，以及左右孩子是否都已经写入
             stack.push(null);
 
             if (node.right != null) {
