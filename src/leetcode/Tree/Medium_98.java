@@ -25,7 +25,10 @@ public class Medium_98 {
     //迭代做法,其实就是中序遍历
     public boolean isValidBST2(TreeNode root) {
         Stack<TreeNode> stack = new Stack<>();
+        //Double.MIN_VALUE 是一个小数
         double inorder = -Double.MAX_VALUE;
+        // int inorder = Integer.MIN_VALUE;
+        // float inorder = -Float.MAX_VALUE;
         while (!stack.empty() || root != null) {
             while (root != null) {
                 stack.push(root);
