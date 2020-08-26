@@ -9,6 +9,7 @@ public class Easy_784 {
     public List<String> letterCasePermutation(String S) {
         List<String> res = new ArrayList<>();
         List<StringBuilder> ans = new ArrayList<>();
+
         ans.add(new StringBuilder());
 
         for (char c:S.toCharArray()) {
