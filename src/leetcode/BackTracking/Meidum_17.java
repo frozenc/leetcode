@@ -13,7 +13,7 @@ import java.util.Map;
  * @since
  **/
 public class Meidum_17 {
-    Map<String, String> map = new HashMap<>() {{
+    HashMap map = new HashMap<String, String>() {{
         put("2", "abc");
         put("3", "def");
         put("4", "ghi");
@@ -37,9 +37,9 @@ public class Meidum_17 {
             res.add(combinations);
             return;
         }
-        String sub = map.get(digits.substring(0, 1));
-        for (int i=0; i<sub.length(); i++) {
-            helper(combinations + sub.substring(i, i+1), digits.substring(1));
+        String sub = (String) map.get(digits.substring(0, 1));
+        for (int i = 0; i < sub.length(); i++) {
+            helper(combinations + sub.substring(i, i + 1), digits.substring(1));
         }
     }
 }

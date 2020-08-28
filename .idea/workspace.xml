@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a88e5b82-42a3-4490-a542-79633b9984bc" name="Default Changelist" comment="">
+    <list default="true" id="a88e5b82-42a3-4490-a542-79633b9984bc" name="Default Changelist" comment="&quot;2020-08-28&quot;">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/String/Easy_657.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/BackTracking/Easy_784.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/BackTracking/Easy_784.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/BackTracking/Meidum_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/BackTracking/Meidum_17.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +64,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="leetcode.BFSDFS" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.QuickSort">
     <configuration name="Hard_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -225,12 +231,57 @@
       <workItem from="1593662690796" duration="2008000" />
       <workItem from="1594365456999" duration="25000" />
       <workItem from="1594890323491" duration="23886000" />
-      <workItem from="1598444156810" duration="1066000" />
+      <workItem from="1598444156810" duration="6508000" />
+      <workItem from="1598575426669" duration="2950000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;2020-08-28&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;2020-08-28&quot;" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598600726745">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598600726745" />
+    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1598602206961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598602206961" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1598602026841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598602026841" />
+    <state x="790" y="389" key="VCS.EditChangelistDialog" timestamp="1598602133728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="389" key="VCS.EditChangelistDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598602133728" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1598575432798">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598575432798" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598602088423">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598602088423" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598575629421">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598575629421" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
