@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88e5b82-42a3-4490-a542-79633b9984bc" name="Default Changelist" comment="&quot;2020-08-28&quot;">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/String/Easy_657.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/BackTracking/Meidum_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/BackTracking/Meidum_17.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
   </component>
   <component name="ProjectId" id="1gdUqmmrmHYjuRuF8q55wUWZ8MV" />
   <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -63,7 +61,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -233,6 +231,7 @@
       <workItem from="1594890323491" duration="23886000" />
       <workItem from="1598444156810" duration="6508000" />
       <workItem from="1598575426669" duration="2950000" />
+      <workItem from="1598835020119" duration="1525000" />
     </task>
     <servers />
   </component>
@@ -258,22 +257,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598600726745" />
-    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1598602206961">
+    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1598843173988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598602206961" />
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598843173988" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1598602026841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598602026841" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1598843310418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598843310418" />
     <state x="790" y="389" key="VCS.EditChangelistDialog" timestamp="1598602133728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="389" key="VCS.EditChangelistDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598602133728" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1598575432798">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1598835034333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598575432798" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598835034333" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598602088423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
