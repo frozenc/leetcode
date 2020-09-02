@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a88e5b82-42a3-4490-a542-79633b9984bc" name="Default Changelist" comment="&quot;2020-08-31&quot;">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/DP/Medium_486.java" afterDir="false" />
+    <list default="true" id="a88e5b82-42a3-4490-a542-79633b9984bc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JianZhiOffer/Offer_53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JianZhiOffer/Offer_53.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +232,8 @@
       <workItem from="1594890323491" duration="23886000" />
       <workItem from="1598444156810" duration="6508000" />
       <workItem from="1598575426669" duration="2950000" />
-      <workItem from="1598835020119" duration="6452000" />
+      <workItem from="1598835020119" duration="7108000" />
+      <workItem from="1599007232633" duration="3962000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2020-08-31&quot;">
       <created>1598843338170</created>
@@ -241,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598843338170</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2020-09-01">
+      <created>1598961186315</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598961186315</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +270,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -271,17 +281,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;2020-08-28&quot;" />
     <MESSAGE value="&quot;2020-08-31&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;2020-08-31&quot;" />
+    <MESSAGE value="2020-09-01" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-09-01" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598600726745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598600726745" />
-    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1598843429874">
+    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1598961185237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598843429874" />
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598961185237" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1598602026841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -294,18 +305,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="389" key="VCS.EditChangelistDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598602133728" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598843890568">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598961201181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598843890568" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1598835034333">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598961201181" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1599008538158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598835034333" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599008538158" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598602088423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598602088423" />
+    <state x="334" y="130" key="new project wizard" timestamp="1599010364608">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="130" key="new project wizard/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599010364608" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598575629421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

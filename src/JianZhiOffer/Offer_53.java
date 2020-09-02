@@ -25,4 +25,53 @@ public class Offer_53 {
         }
         return true;
     }
+
+    //剑指offer书上解法
+    int index;
+
+    public boolean isNumber(String s) {
+        index = 0;
+
+        while (index < s.length() && s.charAt(index) == ' ') {
+            ++ index;
+        }
+
+        boolean numeric = scanInteger(s);
+
+        //查看小数部分
+        if (index < s.length() && s.charAt(index) == '.') {
+            ++ index;
+            //小数部分没有+-号
+            //小数部分前面可以没有整数.233
+            //小数部分后面可以没有整数233.
+            numeric = scanUnsignedInteger(s) || numeric;
+        }
+
+        //查看指数部分
+        if (index < s.length() && (s.charAt(index) == 'e' || s.charAt(index) == 'E')) {
+            ++ index;
+            numeric = numeric && scanInteger(s);
+        }
+
+        while (index < s.length() && s.charAt(index) == ' ') {
+            ++ index;
+        }
+
+        return numeric && index == s.length();
+    }
+
+    public boolean scanInteger(String s) {
+        if (index < s.length() && (s.charAt(index) == '+' || s.charAt(index) == '-')) {
+            ++ index;
+        }
+        return scanUnsignedInteger(s);
+    }
+
+    public boolean scanUnsignedInteger(String s) {
+        int before = index;
+        while (index < s.length() && s.charAt(index) >= '0' && s.charAt(index) <= '9') {
+            ++ index;
+        }
+        return index > before;
+    }
 }
