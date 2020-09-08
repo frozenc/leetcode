@@ -29,7 +29,7 @@ public class Medium_77 {
         }
         for (int i = start; i <= end; i++) {
             list.add(i);
-            backtrack(list, i + 1, end, k);
+            backtrack(list, i + 1, end, k, res);
             list.remove(list.size() - 1);
         }
     }
