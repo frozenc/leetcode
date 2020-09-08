@@ -22,7 +22,7 @@ public class Medium_77 {
     }
 
     //剪枝
-    public void backtrack(List<Integer> list, int start, int end, int k) {
+    public void backtrack(List<Integer> list, int start, int end, int k, List<List<Integer>> res) {
         if (list.size() == k) {
             res.add(new LinkedList<>(list));
             return;
