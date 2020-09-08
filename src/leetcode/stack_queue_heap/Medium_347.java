@@ -87,8 +87,64 @@ public class Medium_347 {
         }
     }
 
+    public int[] topKFrequent3(int[] nums, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+
+        for (int num : nums) {
+            int count = map.getOrDefault(num, 0);
+            map.put(num, count + 1);
+        }
+
+        List<int[]> list = new ArrayList<>();
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            list.add(new int[]{entry.getKey(), entry.getValue()});
+        }
+
+        int[] res = new int[k];
+        int len = list.size();
+
+        quickSort(list, 0, len - 1, k - 1);
+
+
+        for(int i = 0; i < k; i++) {
+            res[i] = list.get(i)[0];
+        }
+
+        return res;
+    }
+
+    public void quickSort(List<int[]> values, int start, int end, int index) {
+        if (start > end) {
+            return;
+        }
+        int j = partion(values, start, end);
+        if (j == index) {
+            return;
+        }
+        if (j < index) {
+            quickSort(values, j + 1, end, index);
+        } else {
+            quickSort(values, start, j - 1, index);
+        }
+    }
+
+    public int partion(List<int[]> values, int start, int end) {
+        int pivot = values.get(start)[1];
+        int i = start, j = end + 1;
+        while (true) {
+            while ( ++i <= end && values.get(i)[1] > pivot);
+            while ( --j >= start && values.get(j)[1] < pivot);
+            if (i >= j) {
+                break;
+            }
+            Collections.swap(values, i, j);
+        }
+        Collections.swap(values, start, j);
+        return j;
+    }
+
     public static void main(String[] args) {
-        int[] nums = {1, 1, 2, 4, 1, 2};
-        new Medium_347().topKFrequent(nums, 3);
+        int[] nums = {2,3,4,1,4,0,4,-1,-2,-1};
+        new Medium_347().topKFrequent3(nums, 2);
     }
 }

@@ -20,4 +20,17 @@ public class Medium_77 {
             path.pop();
         }
     }
+
+    //剪枝
+    public void backtrack(List<Integer> list, int start, int end, int k) {
+        if (list.size() == k) {
+            res.add(new LinkedList<>(list));
+            return;
+        }
+        for (int i = start; i <= end; i++) {
+            list.add(i);
+            backtrack(list, i + 1, end, k);
+            list.remove(list.size() - 1);
+        }
+    }
 }
