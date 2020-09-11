@@ -31,7 +31,7 @@ public class Medium_40 {
             //每个重复的数只在回溯刚开始使用一次
             if (i > index && candidates[i] == candidates[i - 1]) {
                 continue;
-            }
+            } 
 
             if (candidates[i] <= target) {
                 path.add(candidates[i]);
