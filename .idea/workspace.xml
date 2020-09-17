@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a88e5b82-42a3-4490-a542-79633b9984bc" name="Default Changelist" comment="">
+    <list default="true" id="a88e5b82-42a3-4490-a542-79633b9984bc" name="Default Changelist" comment="2020-09-12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/BackTracking/Medium_40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/BackTracking/Medium_40.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/BackTracking/Medium_77.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/BackTracking/Medium_77.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,21 +17,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>[</find>
-      <find>]</find>
-      <find>&quot;</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>{</replace>
-      <replace>}</replace>
-      <replace>'</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>G:\github_project\leetcode\src\LinkedList</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,11 +39,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/github_project/leetcode/src/leetcode/Tree/Easy_404.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596124214286" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MiaoshaLearn/miaosha5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IDEA/test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -69,26 +55,13 @@
       <recent name="leetcode.BFSDFS" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Medium_347">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Hard_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.DP.Hard_10" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Medium_1300" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Array.Medium_1300" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,20 +108,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BasicAlgorithm.Sort.Test" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BasicAlgorithm.Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Medium_1300" />
       <item itemvalue="Application.Hard_10" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.Medium_347" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Medium_347" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.Hard_10" />
-        <item itemvalue="Application.Medium_1300" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +224,13 @@
       <workItem from="1599287216334" duration="1571000" />
       <workItem from="1599468344376" duration="15781000" />
       <workItem from="1599697995678" duration="1581000" />
+      <workItem from="1599785090429" duration="2318000" />
+      <workItem from="1599874926352" duration="3969000" />
+      <workItem from="1599958273347" duration="3349000" />
+      <workItem from="1600048043646" duration="2077000" />
+      <workItem from="1600132839266" duration="2609000" />
+      <workItem from="1600217154090" duration="1329000" />
+      <workItem from="1600306158070" duration="642000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2020-08-31&quot;">
       <created>1598843338170</created>
@@ -291,7 +295,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599699562961</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2020-09-11">
+      <created>1599785130676</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599785130676</updated>
+    </task>
+    <task id="LOCAL-00011" summary="2020-09-12">
+      <created>1599881546036</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599881546036</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,42 +346,44 @@
     <MESSAGE value="2020-09-07" />
     <MESSAGE value="2020-09-08" />
     <MESSAGE value="2020-09-10" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-09-10" />
+    <MESSAGE value="2020-09-11" />
+    <MESSAGE value="2020-09-12" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-09-12" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598600726745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598600726745" />
-    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1599699561541">
+    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1599891159719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599699561541" />
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599891159719" />
     <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599469955252" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1598602026841">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1599891157889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598602026841" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599101396863">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599891157889" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599882279129">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599101396863" />
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1599659471221">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599882279129" />
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1599891177739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599659471221" />
-    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1599659471221">
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599891177739" />
+    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1599891177739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599659471221" />
-    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1599659471221">
+    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599891177739" />
+    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1599891177739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599659471221" />
-    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1599659471221">
+    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599891177739" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1599891177739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599659471221" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599891177739" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1599659471222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -389,10 +409,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="389" key="VCS.EditChangelistDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598602133728" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599699565961">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599881552911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599699565961" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599881552911" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599033357040" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1599008538158">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -402,10 +422,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598602088423" />
-    <state x="334" y="130" key="new project wizard" timestamp="1599541667936">
+    <state x="334" y="130" key="new project wizard" timestamp="1599882269946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="130" key="new project wizard/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599541667936" />
+    <state x="334" y="130" key="new project wizard/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599882269946" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598575629421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
