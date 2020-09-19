@@ -3,6 +3,8 @@ package leetcode.Tree;
 import javafx.util.Pair;
 import Util.TreeNode;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 //左叶子之和
@@ -39,5 +41,55 @@ public class Easy_404 {
             }
         }
         return res;
+    }
+
+    //BFS
+    public int sumOfLeftLeaves2(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int sum = 0;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            TreeNode cur = queue.poll();
+            if (cur.left != null) {
+                TreeNode left = cur.left;
+                if (left.left == null && left.right == null) {
+                    sum += left.val;
+                } else {
+                    queue.offer(left);
+                }
+            }
+            if (cur.right != null) {
+                TreeNode right = cur.right;
+                if (right.left != null || right.right != null) {
+                    queue.offer(right);
+                }
+            }
+        }
+        return sum;
+    }
+
+    public int sumOfLeftLeaves3(TreeNode root) {
+        return root == null ? 0 : dfs(root);
+    }
+
+    public int dfs(TreeNode root) {
+        int ans = 0;
+        if (root.left != null) {
+            ans += isLeafNode(root.left) ? root.left.val : dfs(root.left);
+        }
+        if (root.right != null) {
+            ans += isLeafNode(root.right) ? 0 : dfs(root.right);
+        }
+        return ans;
+    }
+
+    public boolean isLeafNode(TreeNode node) {
+        if (node.left == null && node.right == null) {
+            return true;
+        }
+        return false;
     }
 }

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a88e5b82-42a3-4490-a542-79633b9984bc" name="Default Changelist" comment="2020-09-12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/BackTracking/Medium_77.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/BackTracking/Medium_77.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Tree/Easy_404.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Tree/Easy_404.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,17 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Hard_10" />
       <item itemvalue="Application.MergeSort" />
@@ -231,6 +220,8 @@
       <workItem from="1600132839266" duration="2609000" />
       <workItem from="1600217154090" duration="1329000" />
       <workItem from="1600306158070" duration="642000" />
+      <workItem from="1600392624025" duration="702000" />
+      <workItem from="1600477351540" duration="1158000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2020-08-31&quot;">
       <created>1598843338170</created>
