@@ -44,7 +44,7 @@ public class Easy_404 {
     }
 
     //BFS
-    public int sumOfLeftLeaves2(TreeNode root) {
+    public int sumOfLeftLeaves3(TreeNode root) {
         if (root == null) {
             return 0;
         }
@@ -71,7 +71,7 @@ public class Easy_404 {
         return sum;
     }
 
-    public int sumOfLeftLeaves3(TreeNode root) {
+    public int sumOfLeftLeaves4(TreeNode root) {
         return root == null ? 0 : dfs(root);
     }
 
