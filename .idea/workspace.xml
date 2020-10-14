@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a88e5b82-42a3-4490-a542-79633b9984bc" name="Default Changelist" comment="" />
+    <list default="true" id="a88e5b82-42a3-4490-a542-79633b9984bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Array/Easy_1002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Array/Easy_1002.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -247,6 +250,7 @@
       <workItem from="1601041059074" duration="85000" />
       <workItem from="1601270867500" duration="1599000" />
       <workItem from="1601783649770" duration="762000" />
+      <workItem from="1602646124039" duration="1284000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2020-08-31&quot;">
       <created>1598843338170</created>
@@ -395,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601791020763</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="2020-10-14">
+      <created>1602646198843</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1602646198843</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +453,8 @@
     <MESSAGE value="2020-09-25" />
     <MESSAGE value="2020-09-28" />
     <MESSAGE value="2020-10-04" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-10-04" />
+    <MESSAGE value="2020-10-14" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-10-14" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1601271567553">
@@ -457,10 +469,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1598600726745" />
-    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1601791019763">
+    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1602646197426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1601791019763" />
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1602646197426" />
     <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600929890115" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1599891157889">
       <screen x="0" y="0" width="1920" height="1040" />
