@@ -43,4 +43,9 @@ public class Offer_66 {
         }
         return num1 + num2;
     }
+
+    public static void main(String[] args) {
+        int res2 = new Offer_66().movingCount(10, 1, 100);
+        System.out.println(res2);
+    }
 }

@@ -2,6 +2,7 @@ package JianZhiOffer;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.PriorityQueue;
 
 //滑动窗口的最大值
 public class Offer_64 {
@@ -42,6 +43,27 @@ public class Offer_64 {
                 res.add(num[queue.peekFirst()]);
             }
         }
+        return res;
+    }
+
+    //  使用大顶堆实现
+    public ArrayList<Integer> maxInWindows3(int [] num, int size)
+    {
+        ArrayList<Integer> res = new ArrayList<>();
+        int n = num.length;
+        if (n < size || size < 1 || n == 0)  return res;
+        PriorityQueue<Integer> maxHeap = new PriorityQueue<>((o1, o2)->o2-o1);
+        for (int i = 0; i < size; i ++) {
+            maxHeap.add(num[i]);
+        }
+        int count = size;
+        while (count < n) {
+            res.add(maxHeap.peek());
+            maxHeap.remove(num[count - size]);
+            maxHeap.add(num[count]);
+            count ++;
+        }
+        res.add(maxHeap.peek());
         return res;
     }
 }

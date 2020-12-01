@@ -23,4 +23,26 @@ public class Offer_62 {
         }
         return null;
     }
+
+    int remain;
+    TreeNode ans;
+
+    TreeNode KthNode2(TreeNode pRoot, int k)
+    {
+        this.remain = k;
+        dfs(pRoot);
+        return ans;
+    }
+
+    public void dfs(TreeNode root) {
+        if (root == null || this.remain < 1) {
+            return;
+        }
+        dfs(root.left);
+        if (this.remain == 1) {
+            ans = root;
+        }
+        this.remain --;
+        dfs(root.right);
+    }
 }

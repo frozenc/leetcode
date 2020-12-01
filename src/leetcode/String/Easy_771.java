@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 //宝石与石头
-public class East_771 {
+public class Easy_771 {
     public int numJewelsInStones(String J, String S) {
         Set<Character> set = new HashSet<>();
         int jLen = J.length(), sLen = S.length(), res = 0;
