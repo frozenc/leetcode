@@ -37,4 +37,8 @@ public class Offer_52 {
         }
         return false;
     }
+
+    public static void main(String[] args) {
+        System.out.println(new Offer_52().match("bbbba".toCharArray(), ".*a*a".toCharArray()));
+    }
 }
