@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88e5b82-42a3-4490-a542-79633b9984bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/BasicAlgorithm/Sort/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_66.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_66.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_404.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/leetcode/Tree/Easy_404.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JianZhiOffer/Offer_31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JianZhiOffer/Offer_31.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JianZhiOffer/Offer_52.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JianZhiOffer/Offer_52.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_29.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_31.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_52.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_52.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_62.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_62.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_63.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_63.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_64.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_64.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JianZhiOffer/Offer_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JianZhiOffer/Offer_15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JianZhiOffer/Offer_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JianZhiOffer/Offer_16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JianZhiOffer/Offer_29.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JianZhiOffer/Offer_29.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JianZhiOffer/Offer_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JianZhiOffer/Offer_4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/github_project/leetcode/src/leetcode/Tree/Easy_404.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -59,13 +66,26 @@
       <recent name="leetcode.BFSDFS" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Offer_52">
+  <component name="RunManager" selected="Application.Offer_29">
     <configuration name="Medium_347" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.stack_queue_heap.Medium_347" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.stack_queue_heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Offer_29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JianZhiOffer.Offer_29" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JianZhiOffer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,19 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BasicAlgorithm.Sort.QuickSort" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicAlgorithm.Sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BasicAlgorithm.Sort.Test" />
       <module name="leetcode" />
@@ -125,31 +132,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.Medium_347" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Offer_66" />
       <item itemvalue="Application.Offer_52" />
+      <item itemvalue="Application.Offer_29" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Offer_29" />
         <item itemvalue="Application.Offer_52" />
         <item itemvalue="Application.Offer_66" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Medium_347" />
-        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +267,8 @@
       <workItem from="1606362092481" duration="102000" />
       <workItem from="1606634728543" duration="12363000" />
       <workItem from="1606836857424" duration="155000" />
-      <workItem from="1607338759313" duration="27867000" />
+      <workItem from="1607338759313" duration="29834000" />
+      <workItem from="1607676383931" duration="25754000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2020-08-31&quot;">
       <created>1598843338170</created>
@@ -484,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606831821614</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="2020-12-10">
+      <created>1607604233153</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1607604233153</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,7 +530,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2020-09-01" />
     <MESSAGE value="2020-09-02" />
     <MESSAGE value="2020-09-05" />
     <MESSAGE value="2020-09-07" />
@@ -538,99 +554,8 @@
     <MESSAGE value="2020-10-26" />
     <MESSAGE value="2020-11-26" />
     <MESSAGE value="2020-12-01" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-12-01" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1601271567553">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1601271567553" />
-    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606831844423">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606831844423" />
-    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1606831819700">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1606362181639" />
-    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606831819700" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1599891157889">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599891157889" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600675137142">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1600675137141" />
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1607521857082">
-      <screen x="-1920" y="-98" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-98.1920.1040@-1920.-98.1920.1040" timestamp="1607521857082" />
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1606639704019" />
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606836695748" />
-    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1607521857082">
-      <screen x="-1920" y="-98" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-98.1920.1040@-1920.-98.1920.1040" timestamp="1607521857082" />
-    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1606639704019" />
-    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606836695748" />
-    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1607521857082">
-      <screen x="-1920" y="-98" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-98.1920.1040@-1920.-98.1920.1040" timestamp="1607521857082" />
-    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1606639704019" />
-    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606836695748" />
-    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1607521857082">
-      <screen x="-1920" y="-98" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-98.1920.1040@-1920.-98.1920.1040" timestamp="1607521857082" />
-    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1606639704019" />
-    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606836695748" />
-    <state width="1877" height="344" key="GridCell.Tab.1.bottom" timestamp="1607521831722">
-      <screen x="-1920" y="-98" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-98.1920.1040@-1920.-98.1920.1040" timestamp="1607521831722" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1606639704019" />
-    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606836695748" />
-    <state width="1877" height="344" key="GridCell.Tab.1.center" timestamp="1607521831722">
-      <screen x="-1920" y="-98" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="344" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-98.1920.1040@-1920.-98.1920.1040" timestamp="1607521831722" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1606639704019" />
-    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606836695748" />
-    <state width="1877" height="344" key="GridCell.Tab.1.left" timestamp="1607521831722">
-      <screen x="-1920" y="-98" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="344" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-98.1920.1040@-1920.-98.1920.1040" timestamp="1607521831722" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1606639704019" />
-    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606836695748" />
-    <state width="1877" height="344" key="GridCell.Tab.1.right" timestamp="1607521831722">
-      <screen x="-1920" y="-98" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="344" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-98.1920.1040@-1920.-98.1920.1040" timestamp="1607521831722" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1606639704019" />
-    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606836695748" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1599470009676">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599470009676" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606831826032">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1606362183897" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606831826032" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1599008538158">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599008538158" />
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606831802632">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606831802632" />
-    <state x="334" y="130" key="new project wizard" timestamp="1599882269946">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="334" y="130" key="new project wizard/0.0.1920.1040/-1920.-98.1920.1040@0.0.1920.1040" timestamp="1599882269946" />
+    <MESSAGE value="2020-12-10" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-12-10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -719,6 +644,11 @@
           <url>file://$PROJECT_DIR$/src/JianZhiOffer/Offer_52.java</url>
           <line>28</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JianZhiOffer/Offer_29.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

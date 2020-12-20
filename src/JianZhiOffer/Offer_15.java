@@ -14,4 +14,15 @@ public class Offer_15 {
         }
         return prev;
     }
+
+    // 递归
+    public ListNode ReverseList2(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode cur = ReverseList(head.next);
+        head.next.next = head;
+        head.next = null;
+        return cur;
+    }
 }
