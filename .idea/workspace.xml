@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88e5b82-42a3-4490-a542-79633b9984bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDanceExplore/String/CheckInclusion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDanceExplore/String/LengthOfLongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDanceExplore/String/LongestCommonPrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_29.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_29.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_31.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_31.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_52.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_52.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_62.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_62.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_63.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_63.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_64.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_64.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JianZhiOffer/Offer_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JianZhiOffer/Offer_15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JianZhiOffer/Offer_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JianZhiOffer/Offer_16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JianZhiOffer/Offer_29.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JianZhiOffer/Offer_29.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JianZhiOffer/Offer_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JianZhiOffer/Offer_4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,15 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -268,7 +258,8 @@
       <workItem from="1606634728543" duration="12363000" />
       <workItem from="1606836857424" duration="155000" />
       <workItem from="1607338759313" duration="29834000" />
-      <workItem from="1607676383931" duration="25754000" />
+      <workItem from="1607676383931" duration="27737000" />
+      <workItem from="1609416718828" duration="4678000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2020-08-31&quot;">
       <created>1598843338170</created>
@@ -501,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607604233153</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="2020-12-20">
+      <created>1608453136834</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1608453136834</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +528,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2020-09-02" />
     <MESSAGE value="2020-09-05" />
     <MESSAGE value="2020-09-07" />
     <MESSAGE value="2020-09-08" />
@@ -555,7 +552,8 @@
     <MESSAGE value="2020-11-26" />
     <MESSAGE value="2020-12-01" />
     <MESSAGE value="2020-12-10" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-12-10" />
+    <MESSAGE value="2020-12-20" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-12-20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
