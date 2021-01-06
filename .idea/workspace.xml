@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88e5b82-42a3-4490-a542-79633b9984bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ByteDanceExplore/String/CheckInclusion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ByteDanceExplore/String/LengthOfLongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ByteDanceExplore/String/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ByteDanceExplore/String/Multiply.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_29.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_44.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/JianZhiOffer/Offer_44.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JianZhiOffer/Offer_44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JianZhiOffer/Offer_44.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +62,13 @@
       <recent name="leetcode.BFSDFS" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Offer_29">
-    <configuration name="Medium_347" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.stack_queue_heap.Medium_347" />
+  <component name="RunManager" selected="Application.Multiply">
+    <configuration name="Multiply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ByteDanceExplore.String.Multiply" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.stack_queue_heap.*" />
+          <option name="PATTERN" value="ByteDanceExplore.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,31 +128,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Medium_347" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Offer_66" />
       <item itemvalue="Application.Offer_52" />
       <item itemvalue="Application.Offer_29" />
+      <item itemvalue="Application.Multiply" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Multiply" />
         <item itemvalue="Application.Offer_29" />
         <item itemvalue="Application.Offer_52" />
         <item itemvalue="Application.Offer_66" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Medium_347" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +265,10 @@
       <workItem from="1606836857424" duration="155000" />
       <workItem from="1607338759313" duration="29834000" />
       <workItem from="1607676383931" duration="27737000" />
-      <workItem from="1609416718828" duration="4678000" />
+      <workItem from="1609416718828" duration="5907000" />
+      <workItem from="1609736252267" duration="2742000" />
+      <workItem from="1609810866209" duration="1665000" />
+      <workItem from="1609844632852" duration="1249000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;2020-08-31&quot;">
       <created>1598843338170</created>
@@ -499,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608453136834</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="2020-12-31">
+      <created>1609423707932</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1609423707932</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +544,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2020-09-05" />
     <MESSAGE value="2020-09-07" />
     <MESSAGE value="2020-09-08" />
     <MESSAGE value="2020-09-10" />
@@ -553,7 +568,8 @@
     <MESSAGE value="2020-12-01" />
     <MESSAGE value="2020-12-10" />
     <MESSAGE value="2020-12-20" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-12-20" />
+    <MESSAGE value="2020-12-31" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-12-31" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -614,11 +630,6 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JianZhiOffer/Offer_44.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/stack_queue_heap/Hard_224.java</url>
           <line>12</line>
           <option name="timeStamp" value="24" />
@@ -647,6 +658,11 @@
           <url>file://$PROJECT_DIR$/src/JianZhiOffer/Offer_29.java</url>
           <line>43</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ByteDanceExplore/String/Multiply.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
